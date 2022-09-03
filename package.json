@@ -6,7 +6,9 @@
   "author": "renatosouzaBR <natoicm@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "sdk46/**"
-  ]
+  "workspaces": {
+    "nohoist": [
+      "**/"
+    ]
+  }
 }
